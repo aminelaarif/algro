@@ -1,0 +1,21 @@
+FUNCTION function_name(sum) : INTEGER
+VAR
+    tab:array_name : ARRAY_OF integer[5];
+    tab1:array_name : ARRAY_OF type[5];
+BEGIN
+   
+    FOR tab[i] FROM 0 TO 5 STEP step  DO
+    FOR tab1[i] FROM 1 TO 5 STEP step  DO
+        
+    END_FOR
+    IF tab[i]<>tab1[i] THEN
+    //mo5y ow9ef sayé//
+    
+        
+    END_IF
+        set_instructions
+    END_IF
+        set_instructions
+    END_FOR
+    RETURN value ;
+END

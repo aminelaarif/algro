@@ -1,0 +1,14 @@
+FUNCTION function_name(parameters) : STRING
+VAR
+s:STRING; vowels:string
+FOR i FROM 1 TO length(s) STEP step  DO
+ vowels:=0
+  
+   IF (s[i] in ("a","e","i","o","u","y"):) THEN
+    vowels+1;
+        write(vowels)  
+   END_IF
+     
+    
+END_FOR
+END
